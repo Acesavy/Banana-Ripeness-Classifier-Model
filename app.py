@@ -3,20 +3,18 @@ import numpy as np
 import tensorflow as tf
 from PIL import Image
 
-# Page Configuration
 st.set_page_config(
     page_title="Banana Ripeness Classifier",
-    page_icon="🍌",
+    page_icon="https://upload.wikimedia.org/wikipedia/commons/8/8a/Banana-Single.jpg",
     layout="centered",
 )
 
-# Minimal Clean Styling
 st.markdown("""
 <style>
     .main-title {
-        font-size: 1.8rem;
-        font-weight: 600;
-        margin-bottom: 0.2rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+        margin-bottom: 0.25rem;
     }
     .subtitle {
         color: #666;
